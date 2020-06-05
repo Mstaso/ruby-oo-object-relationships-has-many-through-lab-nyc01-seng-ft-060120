@@ -10,4 +10,5 @@ class Doctor
     @@all
   end  
   
+  def new_patient ()
 end  
