@@ -5,7 +5,7 @@ class Appointment
   @@all = []
   
   def initialize (doctor, patient, date)
-    @name = name
+    @doctor = doctor
     @patient = patient
     @date = "date"
     @@all << self
