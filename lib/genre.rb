@@ -1,8 +1,10 @@
 require 'pry'
 
 class Genre
-  @@all=[]
+  
   attr_accessor :name
+  
+  @@all=[]
   
   def initialize(name)
     @name = name
