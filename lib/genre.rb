@@ -11,7 +11,6 @@ class Genre
     @@all
   end  
   def songs
-    binding.pry
      Song.all { |song| song.genre == self }
   end  
   def artists
